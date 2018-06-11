@@ -1,21 +1,9 @@
-
-@import "abstracts/variables";
-
-@import "base/reset";
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import "base";
 @import "components/buttons";
+@import "header";
 
-@import "layout/header";
 
-
-html {
-	font-size: 62.5%;
-	font-family: 'Roboto', sans-serif;
-}
-
-body {
-	padding: 3rem;
-}
 
 
 

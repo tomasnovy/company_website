@@ -1,0 +1,27 @@
+// COLOR VARIABLES
+$color-main-green: #27ae60;
+$color-white: #fff;
+
+// FONT VARIABLES
+$font-primary: 'Raleway', sans-serif;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: $font-primary;
+  background-color: #27ae60;
+  box-sizing: border-box;
+}
+
+body {
+	padding: 3rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
