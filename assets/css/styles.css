@@ -34,26 +34,29 @@ body {
   background-color: #27ae60;
   color: #fff; }
 
-.navigation__list {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none; }
-
-.navigation__item {
-  margin: 1rem; }
-  .navigation__item:first-of-type {
-    align-self: flex-start; }
-
-.navigation__link:link, .navigation__link:visited {
-  display: inline-block;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none; }
-
 .header {
   height: 100vh;
   position: relative; }
+
+.logo {
+  display: inline-block; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navigation__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; }
+  .navigation__item {
+    margin: 1rem; }
+  .navigation__link:link, .navigation__link:visited {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none; }
 
 .text-box {
   color: #fff;

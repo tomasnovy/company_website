@@ -1,17 +1,25 @@
+.header {
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+}
+
 .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   &__list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     list-style: none;
   }
 
   &__item {
     margin: 1rem;
-
-    &:first-of-type {
-      align-self: flex-start;
-    }
   }
 
   &__link {
@@ -24,11 +32,6 @@
       text-decoration: none;
     }
   }
-}
-
-.header {
-  height: 100vh;
-  position: relative;
 }
 
 .text-box {
@@ -49,51 +52,6 @@
     margin-top: 10rem;
   }
 }
-
-
-
-
-// .header {
-// 	display: flex;
-// 	justify-content: center;
-//   flex-direction: row;
-// }
-
-// .text-box {
-//   align-self: center;
-//   width: 45%;
-
-//   &__heading-primary {
-//     color: $color-main-green;
-//     font-size: 4rem;
-//     font-weight: 400;
-//     margin-bottom: 2rem;
-
-//     &--main,
-//     &--sub {
-//       display: block;
-//     }
-//   }
-
-// }
-
-// //   &__text {
-// //     font-size: 1.8rem;
-// //     font-weight: 300;
-// //     line-height: 1.6;
-// //     margin-bottom: 2rem;
-// //   }
-// // }
-
-// .img-wraper {
-//   align-self: center;
-//   width: 45%;
-
-//   & img {
-//     max-width: 100%;
-//     height: auto;
-//   }
-// }
 
 
 
