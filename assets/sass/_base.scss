@@ -16,12 +16,11 @@ $font-primary: 'Raleway', sans-serif;
 html {
 	font-size: 62.5%;
 	font-family: $font-primary;
-  background-color: #27ae60;
   box-sizing: border-box;
 }
 
 body {
-	padding: 3rem;
+	// padding: 3rem;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');

@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  &__text-box {
+    flex: 1;
+  }
+
+  &__img {
+    background-image: url('../images/about-image.jpg');
+    background-size: cover;
+    flex: 1;
+  }
+}
