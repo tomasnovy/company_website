@@ -37,6 +37,13 @@ html {
     flex: 1;
     flex-basis: 50%; }
 
+.our-services {
+  min-height: 100vh;
+  background-color: #f8fdfa; }
+
+.heading-section {
+  text-align: center; }
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -107,3 +114,19 @@ html {
     font-weight: 700; }
   .text-box__sub-heading {
     margin-top: 10rem; }
+
+.features__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  justify-items: center;
+  margin: 2rem auto;
+  grid-gap: 2rem; }
+
+.feature {
+  background-color: red;
+  text-align: center;
+  padding: 3rem; }
+  .feature__heading {
+    font-size: 2rem; }
+  .feature__text {
+    font-size: 1.4rem; }

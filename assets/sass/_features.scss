@@ -1,0 +1,22 @@
+.features__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  justify-items: center;
+  margin: 2rem auto;
+  grid-gap: 2rem;
+}
+
+.feature {
+  background-color: red;
+  // margin: 0 3rem;
+  text-align: center;
+  padding: 3rem;
+
+  &__heading {
+    font-size: 2rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+  }
+}
